@@ -75,6 +75,10 @@ if ( file_exists( dirname( __FILE__ ) . '/memcached.php' ) )
 define( 'WP_STAGE', '%%WP_STAGE%%' );
 define( 'STAGING_DOMAIN', '%%WP_STAGING_DOMAIN%%' ); // Does magic in WP Stack to handle staging domain rewriting
 
+/** Vite Development Environment */
+define("IS_VITE_DEVELOPMENT", true);
+
+
 // ===================
 // Bootstrap WordPress
 // ===================
